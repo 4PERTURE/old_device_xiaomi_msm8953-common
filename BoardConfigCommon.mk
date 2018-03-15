@@ -47,8 +47,11 @@ BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x01000000 --tags_offset 0x00000100
 TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_SOURCE := kernel/xiaomi/msm8953
 
-# ANT
-BOARD_ANT_WIRELESS_DEVICE := "qualcomm-hidl"
+# ANT+
+#BOARD_ANT_WIRELESS_DEVICE := "qualcomm-hidl"
+
+# QCOM hardware
+BOARD_USES_QCOM_HARDWARE := true
 
 # Audio
 AUDIO_FEATURE_ENABLED_ANC_HEADSET := true
