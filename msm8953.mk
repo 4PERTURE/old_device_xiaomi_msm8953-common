@@ -89,7 +89,6 @@ PRODUCT_PACKAGES += \
     libqcomvoiceprocessing \
     libqcompostprocbundle \
     libtinyalsa \
-    libtinyxml \
     tinymix
 
 # Audio configuration
@@ -146,10 +145,6 @@ PRODUCT_PACKAGES += \
     libqdMetaData.system \
     libgenlock \
     libtinyxml
-
-PRODUCT_PACKAGES += \
-    vendor.display.color@1.0-service \
-    vendor.display.color@1.0-impl
 
 # Doze mode
 PRODUCT_PACKAGES += \
