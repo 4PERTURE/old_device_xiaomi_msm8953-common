@@ -15,13 +15,8 @@
  * limitations under the License.
 */
 -->
-<resources>
-<<<<<<< HEAD
-    <dimen name="rounded_corner_radius">4dp</dimen>
-    <dimen name="rounded_corner_content_padding">8dp</dimen>
-</resources>
-=======
 	<!-- more realistic padding -->
-    <dimen name="rounded_corner_content_padding">12dp</dimen>
+</resources>
+     <dimen name="rounded_corner_radius">4dp</dimen>
+     <dimen name="rounded_corner_content_padding">12dp</dimen>
 </resources> 
->>>>>>> 88e6071... Add Rounded corners and padding
